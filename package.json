@@ -1,0 +1,20 @@
+{
+  "name": "ai-human-assistant",
+  "version": "1.0.0",
+  "description": "A web-based AI Video Call Assistant featuring a **photorealistic 3D human talking head avatar framed as a video conference participant** (Head, Neck, and Shoulders). Built with **Three.js**, **WebGL**, **WebRTC**, and native browser speech APIs.",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^3.6.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
